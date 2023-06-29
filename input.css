@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+    .element{
+        background : radial-gradient(circle ,hsl(214, 47%, 23%),hsl(237, 49%, 15%));
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    .button-game{
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+
